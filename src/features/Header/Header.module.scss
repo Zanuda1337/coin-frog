@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  position: absolute;
+  a {
+    align-items: center;
+    display: flex;
+    p {
+      font-size: 3rem;
+      color: var(--foreground-common-light);
+    }
+    img {
+      height: 3rem;
+      margin-right: 2rem;
+    }
+  }
+}
+
+.inner {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 175rem;
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  button {
+    height: 3rem;
+    margin-left: 2.5rem;
+    svg {
+      height: 3rem;
+      fill: var(--foreground-common-light);
+      stroke: var(--foreground-common-light);
+    }
+  }
+}

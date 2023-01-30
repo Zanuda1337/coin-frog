@@ -1,0 +1,23 @@
+.main-wrapper {
+  margin: auto;
+  max-width: 175rem;
+
+  .title {
+    font-size: 3rem;
+    margin: 3rem 0 1.5rem;
+    color: var(--foreground-common-light);
+  }
+}
+.name {
+  span:first-child {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+  }
+  span:last-child {
+    font-size: 1.4rem;
+    color: var(--foreground-common);
+  }
+}
+
+
+

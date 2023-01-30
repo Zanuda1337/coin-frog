@@ -1,0 +1,51 @@
+.footer {
+  margin-top: 5rem;
+  padding: 8rem 0;
+  border-top: .1rem solid var(--separator);
+  .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 160rem;
+    margin: auto;
+    .block {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      flex-wrap: wrap;
+      .logo {
+        flex: 4;
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin-right: 15rem;
+        p {
+          font-size: 2.5rem;
+          color: var(--foreground-common-light);
+          font-weight: 500;
+        }
+        img {
+          margin-right: 2rem;
+          height: 3rem;
+        }
+      }
+      .about {
+        flex: 3;
+        min-width: 30rem;
+        font-size: 1.8rem;
+      }
+    }
+
+  }
+  p {
+    line-height: 2;
+    color: var(--foreground-common);
+  }
+
+  .last {
+    margin-top: 10rem;
+    font-size: 1.6rem;
+    color: var(--foreground-common-light);
+  }
+}

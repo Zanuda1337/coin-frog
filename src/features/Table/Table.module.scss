@@ -1,0 +1,49 @@
+.table-wrapper {
+  table {
+    width: 100%;
+
+    thead {
+      background: var(--separator);
+    }
+
+    th, td {
+      text-align: left;
+    }
+    th {
+      padding: 1rem 1.5rem;
+      font-size: 1.4rem;
+      color: var(--foreground-common);
+      transform: scaleY(0.9);
+      letter-spacing: .07rem;
+    }
+
+    td {
+      padding: 3rem 1.5rem;
+      font-size: 1.6rem;
+      color: var(--foreground-common-light);
+      vertical-align: middle;
+    }
+  }
+}
+
+
+.table-header {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-footer {
+  padding: 1.5rem 0;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  p {
+    color: var(--foreground-common);
+    font-size: 1.6rem;
+  }
+  div:last-child {
+    display: flex;
+    align-items: center;
+  }
+}
